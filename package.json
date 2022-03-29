@@ -2,11 +2,16 @@
 	"name": "fcc-learn-npm-package-json",
         "author": "Vasil Lyubenov",
         "description": "A progect that helps me learn.",
-        "keywords": ["learning", "programming", "freecodecamp"],
+        "keywords": [
+            "learning", 
+            "programming", 
+            "freecodecamp"
+        ],
         "license": "MIT",
         "version": "1.2.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+                "moment": "2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
